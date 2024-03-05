@@ -1,0 +1,380 @@
+
+ body{
+    background:  rgb(119, 119, 175);;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.entrar{
+    border: 2px solid white;
+    padding: 15px;
+    background: white;
+    border-radius: 25%;
+    color: #0e0c0c;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: black;
+    color: white;
+}
+.topo1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;/*separacao topo entre as nav*/
+    align-items: center;
+}
+.menuzinho{
+    display: none;/*aqui ele faz desaparecer*/ 
+
+}
+.topDir {
+   display: flex;
+   align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin: 15px;
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(212, 206, 206);
+}
+ul li a:hover{
+    color: white;
+}
+.entrar:hover{
+    color: #0e0c0c;
+}
+/*section estilo da sessao*/
+
+section{
+    display: flex;
+    width: 100%;
+}
+.conteudo{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    padding: 40px;
+    background: rgb(101, 101, 177);
+}
+.titulo-conteudo{
+    margin-left: 15%;
+    margin-top: 50px;  
+}
+.titulo-conteudo h1{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    text-align: initial;
+}
+.sub-titulo{
+    margin-top: 20px;
+    margin-left: 15%;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
+    text-align: initial;
+}
+.btn-conteudo{
+    margin-left: 15%;
+    margin-top: 40px;
+
+}
+.btn1{
+    padding: 15px;
+    font-size: 15px;
+    width: 150px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    background: rgb(22, 22, 22);
+    color: rgb(158, 148, 148);
+
+}
+.btn2{
+    padding: 14px;
+    font-size: 15px;
+    background-color: transparent;
+    margin-left: 12px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    width: 250px;
+    border-radius: 50px;
+    color: white;
+}
+.btn1:hover{
+    transform: scale(1.1);/* aqui traz o efeito quando o mause passa em cima e ele da um zoom*/
+
+}
+.btn2:hover{
+    transform: scale(1.1);
+    background-color: rgb(82, 82, 170);
+}
+.img-spotify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(101, 101, 177);
+}
+.img-spotify img{
+    width: 45%;
+}
+/*responsividade*/
+
+@media (max-width:768px){
+    ul{
+        display: none;
+    }
+    .menuzinho{
+        display: flex;/*em cima no menuzinho era none agora quando abte o px ele aparece*/
+        color: white;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .btn1{
+        width: 100%;
+        padding: 16px;
+        margin: auto;
+    }
+    .btn2{
+        width: 100%;
+        margin: auto;
+        margin-top: 8px;
+    }
+}
+
+
+
+
+@media(max-width:1201px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-spotify img{
+        width: 45%;
+        margin: auto;
+    }
+}
+#card-geral{
+    margin-left: 5px;
+    display: flex;
+    gap: 28px;
+}
+
+.audio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-bottom: 0%;
+}
+.content-card{ 
+    padding-right: 0%;
+    padding-top: 100px;
+    display: flex;
+    gap: 16px;
+    width: 220px;
+    justify-content: space-around;/* separacao topo entre as nav */
+    align-items: center;
+}
+/* .h3{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+} */
+.card{
+    margin-left: 43px;
+    border: 10px solid black;
+    background: white;
+    box-shadow: 0px 2px 23 #496aaf65;
+    border-radius: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.fotoCantor{
+    background: url("https://shows.net.br/wp-content/uploads/2022/12/ana-castela-1-720x640.jpg") center/cover;
+    height: 300px;
+    width: 220px;
+}
+.fotoCantor1{
+    background: url("https://cdn.dm.com.br/img/normal/110000/normal_00118205_00.jpg?xid=528418") center/cover;
+    height: 300px;
+    width: 220px;
+}
+.fotoCantor2{
+    background: url("https://th.bing.com/th/id/OIP.mWes30UT0Zd4w2ko5i9vAAHaHa?rs=1&pid=ImgDetMain") center/cover;
+    height: 300px;
+    width: 220px;
+}
+.fotoCantor3{
+    background: url("https://meridionalfm.com.br/pca/arquivos/2e8138afd_grupo-menos-e-mais-1606455239194-v2-1920x1280.jpg") center/cover;
+    height: 300px;
+    width: 220px;
+}
+.fotoCantor4{
+    background: url("https://purepop.com.br/wp-content/uploads/2023/05/Luan-Pereira.jpg") center/cover;
+    height: 300px;
+    width: 220px;
+}
+.fotoCantor5{
+    background: url("https://cdn.ibahia.com/img/Artigo-Destaque/290000/Artigo-Destaque_00291958_00.png?xid=1299005") center/cover;
+    height: 300px;
+    width: 220px;
+}
+.topCard{
+    padding: 20px;
+    padding-top: 2px;
+    
+}
+/* .bottomText{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+} */
+.bottomCard{
+    padding: 20px;
+}
+.actions{
+    margin-left: 10%;
+    border: 2px solid black;
+    padding: 5px;
+    align-items: center;
+    background: none;
+    border: none;
+    color: blueviolet;
+    cursor:pointer;
+    
+}
+.actions:hover{
+    transform: scale(1.1);
+}
+/* .actionsCard{
+    border: 2px solid black;
+} */
+.NomeCantor{
+    padding-top: 10px;
+}
+
+/* parte do footer */
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+
+
+}
+.footer{
+    
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+.footer_link{
+    text-decoration: none;
+}
+
+#footer_content{
+    
+    margin-top: 150px;
+    background-color: var(--color-neutral-10);
+    display: grid;     /*aqui entre display grid e grid-template-columns: repeat();deixsamos o fotter com as colunas uma ao lado da outra */
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem; 
+}
+
+.img-redes{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.img-redes .footer_link:hover{
+    opacity: 0.8;
+}
+
+.img-redes .footer_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+.img-redes .footer_link i {
+    font-size: 1.25rem; /* aqui alteramos o tamanho do icone das redes sociais */
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);/*  aqui estamos usando uma juncao de cores */
+}
+#twitter{
+    
+    background-color: #4267b3 ;
+}
+#facebook{
+   
+    background-color:#4267b3 ;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#input_goup {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+
+}
+
+#input_goup input {
+    all: unset; /*aqui retiramos toda personalizaçao padrao do css*/
+    padding: 0.15rem;
+    width: 100%;
+} 
+#input_goup button{
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.25rem;
+    height: 100%;
+    border-radius: 0 px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+#input_goup button:hover{
+    opacity: 0.8;
+}
+@media  screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2,1fr);
+        gap:2rem
+    }
+}
+@media  screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1,1fr);
+        gap:2rem
+    }
+}
+
+
