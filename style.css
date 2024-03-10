@@ -294,6 +294,7 @@ section{
     display: grid;     /*aqui entre display grid e grid-template-columns: repeat();deixsamos o fotter com as colunas uma ao lado da outra */
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem; 
+    
 }
 
 .img-redes{
@@ -335,6 +336,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    padding-left: 17px;
 }
 
 #input_goup {
@@ -342,6 +344,7 @@ section{
     align-items: center;
     background-color: var(--color-neutral-0);
     border-radius: 4px;
+    
 
 }
 
@@ -360,6 +363,7 @@ section{
     border-radius: 0 px 4px 4px 0px;
     cursor: pointer;
     transition: all 0.4s;
+    
 }
 #input_goup button:hover{
     opacity: 0.8;

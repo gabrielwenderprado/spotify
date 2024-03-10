@@ -1,0 +1,189 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    /* aqui retiramos todos espaços quem tem da borda */
+}
+body{
+    background: rgb(49, 49, 47);
+}
+.topoLogin{
+    height: 100%;
+    width: 100%;
+    background: black;
+    border: 5px solid black;
+    display: flex; 
+    margin-bottom: 0px;  
+}
+
+.logo{
+    width: 600px;
+    height: 100%;
+}
+
+.conteinerCenter{
+    height: 1100px;
+    width: 50%;
+    background: rgb(30, 30, 30);
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin-left: 400px;
+    margin-top: 100px;
+    color: white;
+    border-radius: 10px;
+    
+    
+}
+.iniciarSessao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+.fa-brands{
+    color:#50C7C7 ;
+}
+
+.btn-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* separamos um botao do outro */
+    padding-top: 15px;
+    background-color: transparent;
+    color: white;
+}
+
+.linha{
+    display: flex;
+    margin-left: 70px;
+    color: rgb(70, 65, 65);
+}
+i{
+    color: white;
+    padding-right: 10px;
+}
+button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(113, 106, 106);
+    padding: 10px;
+    border-radius: 19px;
+    width: 300px;
+}
+
+button:hover{
+    border: 2px solid white;
+}
+
+.emailUsu1{
+    display: flex;
+    display: block;
+    padding-left: 240px;
+    font-size: 10px;
+    font-weight: 100px;
+    
+}
+.emailUsu{
+    padding: 15px;
+    width: 300px;
+    background: rgb(30, 30, 30);
+    border: 2px solid rgb(113, 106, 106);
+    font-size: 12px;
+    font-weight: 100px;
+}
+
+.senhaUsu{
+    padding: 15px;
+    width: 300px;
+    background: rgb(30, 30, 30);
+    border: 2px solid rgb(113, 106, 106);
+    font-size: 12px;
+    font-weight: 100px;
+}
+
+.senhaUsu1{
+    display: flex;
+    display: block;
+    padding-left: 240px;
+    font-size: 10px;
+    font-weight: 100px;
+    
+}
+
+.btn-Entar{
+    display: flex;
+    padding-left: 240px;
+    padding-top: 50px;
+}
+.btn-Entar:hover{
+    transform: scale(1.1);
+}
+.entar-btn{
+    background: rgb(1, 247, 1);
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    
+}
+.EsqSenha{
+    display: flex;
+    display: block;
+    padding-left: 325px;
+    font-size: 25px;
+    font-weight: 100px;
+    margin-top: 20px;
+    color: white;
+   
+}
+.EsqSenha1{
+    text-decoration: underline white;
+    font-size: 16px;
+}
+.EsqSenha1:hover{
+    color: rgb(1, 247, 1);
+    text-decoration: underline rgb(1, 247, 1);
+}
+
+.Inscrevase{
+    display: flex;
+    padding-left: 240px;
+    font-size: 16px;
+}
+.Inscrevase h2{
+    font-size: 16px;
+    color: rgb(71, 69, 69);
+}
+.linkInsrevase{
+    color: white;
+}
+.linkInsrevase:hover{
+    color:rgb(1, 247, 1) ;
+}
+
+.footer1{
+    display: flex;
+    
+    margin-top: 50px;
+    background: rgb(40, 38, 38);
+}
+
+.footer1 h3{
+    display: flex;
+    font-size: 10px;
+    padding-left: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    
+}
