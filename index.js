@@ -1,19 +1,25 @@
-let email = prompt('digite seu email corretamente: ')
+// let email = prompt('digite seu email corretamente: ')
 
-while(email != 'gabriel-wender.prado@gmail.com'){
-    console.log(`O email digitado foi: ${email}`)
+// while(email != 'gabriel-wender.prado@gmail.com'){
+//     console.log(`O email digitado foi: ${email}`)
 
 
-    email = prompt('digite seu email corretamente: ')
+//     email = prompt('digite seu email corretamente: ')
+// }
+
+
+
+class dadosInsreverse {
+    constructor (email , nome , sobreNome, idade) {
+        this.email = email;
+        this.nome = nome;
+        this.sobreNome = sobreNome;
+        this.idade = idade
+    }
+    apresentar= () => {
+        console.log ( `Ola meu Email É ${this.email} , Meu nome é ${this.nome} ${this.sobreNome}, E a minha idade é ${this.idade} `)
+    }
 }
+ const dadosInsreverseNew = new dadosInsreverse ("gabriel@gmail.com", "gabriel","wender", 28)
 
-function coletaDados(e, t, n, sn) {
-    this.email = e;
-    this.tipo = t;
-    this.nome = n;
-    this.sobreNome = sn;
-}
-
-const coletaDados1 = new coletaDados("gabriel-wender.prado", "@gmail.com", "gabriel", "wender")
-
-console.log(coletaDados1)
+ dadosInsreverseNew.apresentar()
