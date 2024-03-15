@@ -7,7 +7,7 @@ while(email != 'gabriel-wender.prado@gmail.com'){
     email = prompt('digite seu email corretamente: ')
 }
 
-class dados {
+class dadosInscrevase {
     constructor (email , nome , sobreNome, idade) {
         this.email = email;
         this.nome = nome;
@@ -18,6 +18,6 @@ class dados {
         console.log ( `Ola meu Email É ${this.email} , Meu nome é ${this.nome} ${this.sobreNome}, E a minha idade é ${this.idade} `)
     }
 }
- const dados1 = new dados ("gabriel@gmail.com", "gabriel","wender", 28)
+ const dadosInscrevasenew = new dadosInscrevase ("gabriel@gmail.com", "gabriel","wender", 28)
 
- dados1.apresentar()
+ dadosInscrevasenew.apresentar()
