@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    /* aqui retiramos todos espaços quem tem da borda */
+}
+body{
+    background: rgb(49, 49, 47);
+}
+.topoLogin{
+    height: 100%;
+    width: 100%;
+    background: black;
+    
+    display: flex; 
+    margin-bottom: 0px;  
+}
+
+.logo{
+    width: 600px;
+    height: 100%;
+}
+
+.conteiner-cards{
+   
+    margin-top: 40px;
+    padding: 20px;
+    gap: 16px;
+    display: flex;
+    
+    flex-direction: row-reverse;
+}
+.conteiner-card-big{
+    
+    gap: 16px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap; /*para quebrar linhas  */
+}
+.card-big{
+    background: black; 
+    gap: 10px;
+    display: flex;
+    width: 350px;
+    height: 250px;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.conteiner-card-esq{
+    border: 10px solid black;
+    width: 300px; 
+    margin-bottom: 4600px;
+}
+
+@media screen and (max-width: 700px){
+    .conteiner-cards {
+        flex-direction: column ;
+        display: flex;
+    }
+    .conteiner-card-esq{
+        height: 900px;
+        display: flex;
+        
+    }
+}
+
+ /* .card-big{
+    border: 10px solid black; 
+} */
+.card-big img{
+    display: flex;
+    margin-left: 25px;
+    margin-top: -19px;
+    border-radius: 8px;
+    border: 10px solid black;
+    box-shadow: 0 0 15px rgb(27, 14, 14);
+    /* background: url('imgs/pngwing.com.png'); */
+    position: absolute;
+    
+    
+    
+}
+
+
+.play1{
+    position: absolute;
+    background: rgb(98, 233, 98);
+    border-radius: 50%;
+    
+     
+}
+.play{
+    position: absolute;
+    top: 300px;
+    left: 560px;
+}
+/* .play{
+    display: none;
+} */
+.play1:hover{
+    transform: scale(1.2);
+}
+/* .play:hover{
+    display: flex;
+} */

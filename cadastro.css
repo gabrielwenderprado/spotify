@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    /* aqui retiramos todos espaços quem tem da borda */
+}
+body{
+    background: rgb(49, 49, 47);
+}
+.topoLogin{
+    height: 100%;
+    width: 100%;
+    background: black;
+    border: 5px solid black;
+    display: flex; 
+    margin-bottom: 0px;  
+}
+
+.logo{
+    width: 600px;
+    height: 100%;
+}

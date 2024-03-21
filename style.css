@@ -23,6 +23,11 @@ header{
     background: black;
     color: white;
 }
+@media (max-width:1366){
+    header{
+        width: 100%;
+    }
+}
 .topo1{
     display: flex;
     width: 100%;
@@ -133,6 +138,10 @@ section{
 /*responsividade*/
 
 @media (max-width:768px){
+
+    .topDir{
+        display: none;
+    }
     ul{
         display: none;
     }
