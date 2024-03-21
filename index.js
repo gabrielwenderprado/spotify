@@ -29,6 +29,7 @@
 
     const VerificaIdade = ({ idadePessoa}) => {
         idadePessoa >= 18 && alert (`Maior de idade ${idadePessoa ?? 'Nenhum numero inserido'}`)
+        idadePessoa < 18 && alert (`Menor de idade ${idadePessoa ?? 'nenhum numero inserido'}`)
     }
 
     VerificaIdade (idade)
