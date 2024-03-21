@@ -21,3 +21,20 @@
         console.log(Dados)
     }
  
+
+
+    const idade = {
+        idadePessoa: prompt(parent('digite sua idade: '))
+    }
+
+    const VerificaIdade = ({ idadePessoa}) => {
+        idadePessoa >= 18 && alert (`Maior de idade ${idadePessoa ?? 'Nenhum numero inserido'}`)
+    }
+
+    VerificaIdade (idade)
+
+
+    // cadastro
+
+    
+
