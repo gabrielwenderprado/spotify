@@ -24,7 +24,7 @@
 
 
     const idade = {
-        idadePessoa: prompt(parent('digite sua idade: '))
+        idadePessoa: prompt(parseInt('digite sua idade: '))
     }
 
     const VerificaIdade = ({ idadePessoa}) => {
