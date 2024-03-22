@@ -39,7 +39,7 @@ body{
     flex-wrap: wrap; /*para quebrar linhas  */
 }
 .card-big{
-    background: black; 
+    /* background: black;  */
     gap: 10px;
     display: flex;
     width: 350px;

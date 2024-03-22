@@ -177,9 +177,10 @@ section{
     }
 }
 #card-geral{
-    margin-left: 5px;
+    margin-left: -20px;
     display: flex;
     gap: 28px;
+    justify-content: flex-start;
 }
 
 .audio{
