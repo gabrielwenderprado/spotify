@@ -22,6 +22,40 @@ body{
     height: 100%;
 }
 
+.sair{
+    border: 5px solid white;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 30px;
+    background: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 23px
+    
+}
+.volta-inicio b{
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.volta-inicio{
+    display: flex;
+    margin-top: 07px;
+    text-decoration: none;
+    color: black;
+    
+}
+.bem-vindo{
+    display: flex;
+    color: white;
+    /* border: 5px solid white; */
+    margin-left: 720px;
+    padding-right: 10px;
+}
+.bem-vindo b{
+    margin-top: 20px;
+}
 .conteiner-cards{
     margin-top: 40px;
     padding: 20px;
@@ -310,9 +344,7 @@ body{
 .p9{
     margin-left: 170px;
 }
-.p10{
-    
-}
+
 .botao-linguagem{
     display: flex;
     margin-top: 40px;

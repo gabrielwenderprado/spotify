@@ -257,6 +257,15 @@ section{
 } */
 .bottomCard{
     padding: 20px;
+    display: block;
+    
+}
+.audio{
+    border: 1px solid rgb(73, 65, 65);
+    background: #171717;
+    margin-left: 15px;
+    color: #171717;
+    border-radius: 25px;
 }
 .actions{
     margin-left: 10%;

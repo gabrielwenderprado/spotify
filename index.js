@@ -35,7 +35,22 @@
     VerificaIdade (idade)
 
 
-    // cadastro
+
+
+
+
+
+
+
+    const image = document.querySelector('conteudo');
+
+    image.addEventListener('click', (event) => {
+    const {} = event.target;
+    alert(`Atributo de origem da imagem: "${pagode.html}".`);
+
+    // Redirecionar para outra página:
+    location.replace(pagode.html);
+});
 
     
 

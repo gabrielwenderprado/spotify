@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    /* aqui retiramos todos espaços quem tem da borda */
+}
+body{
+    background: rgb(49, 49, 47);
+}
+.topoLogin{
+    height: 100%;
+    width: 100%;
+    background: black;
+    
+    display: flex; 
+    margin-bottom: 0px;  
+}
+.sair{
+    border: 5px solid white;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 30px;
+    background: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 23px
+    
+}
+.pagode-main {
+    
+    color: rgb(241, 167, 167);
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
+.pagode-main b{
+    box-shadow: 0 0 10px white;
+}
+
+
+.volta-inicio b{
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+.sair:hover{
+    transform: scale(1.1);
+    background: rgb(202, 196, 186);
+}
+.volta-inicio{
+    display: flex;
+    margin-top: 07px;
+    text-decoration: none;
+    color: black;
+    
+}
+.logo{
+    width: 600px;
+    height: 100%;
+}
+.conteiner-card-esq{
+    border: 5px solid black;
+    
+}
+
+.inicio-esq{
+    
+    display: flex;
+    margin-left: 55px;
+    margin-top: -46px;
+    color: rgb(179, 164, 164);
+    text-decoration: none;
+    font-size: 30px;
+}
+.inicio-esq:hover{
+    color:  rgb(218, 208, 208);
+    
+}
+.img-lupa{
+    display: flex;
+    margin-left: 150px;
+    width: 40px;
+    margin-top: -35px;
+    background: rgb(118, 119, 119);
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+
+.inicio-esq2{
+    display: flex;
+    margin-left: 199px;
+    margin-top: -37px;
+    color: rgb(179, 164, 164);
+    text-decoration: none;
+    font-size: 30px;
+}
+.inicio-esq2:hover{
+    color:  rgb(218, 208, 208);
+    
+}
+.bem-vindo{
+    display: flex;
+    color: white;
+    /* border: 5px solid white; */
+    margin-left: 520px;
+    padding-right: 10px;
+}
+.bem-vindo b{
+    margin-top: 20px;
+}
+
+.pagode-master{
+    /* border: 10px solid black; */
+    display: flex;
+    flex: 1;
+}
+.pagode-mini-master{
+    margin-top: 30px;
+    /* border: 30px solid blue; */
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.kamisa1010{
+    border: 5px solid black;
+    background: rgb(245, 243, 243);
+    margin-bottom: 15px;
+}
+.mateuzinho1010{
+    border: 5px solid black;
+    margin-bottom: 15px;
+    background: rgb(245, 243, 243);
+}
+.turma-henrique-diego{
+    border: 5px solid black;
+    margin-bottom: 15px;
+    background: rgb(245, 243, 243);
+}
+.futuro-presente{
+    border: 5px solid black;
+    margin-bottom: 15px;
+    background: rgb(245, 243, 243);
+}
+.pouco-a-pouco{
+    border: 5px solid black;
+    margin-bottom: 15px;
+    background: rgb(245, 243, 243);
+}
+.certo-duvidoso{
+    border: 5px solid black;
+    margin-bottom: 15px;
+    background: rgb(245, 243, 243);
+}
+.di-proposito{
+    border: 5px solid black;
+    margin-bottom: 15px;
+    background: rgb(245, 243, 243);
+}
+.atitude-67{
+    border: 5px solid black;
+    margin-bottom: 15px;
+    background: rgb(245, 243, 243);
+}
+.tonelada{
+    border: 5px solid black;
+    margin-bottom: 15px;
+    margin-left: 378px;
+    background: rgb(245, 243, 243);
+}
+.cereno{
+    border: 5px solid black;
+    margin-bottom: 15px;
+    margin-right: 380px;
+    background: rgb(245, 243, 243);
+}
