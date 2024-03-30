@@ -141,6 +141,11 @@ button:hover{
     padding-left: 240px;
     padding-top: 50px;
 }
+
+.btn-Entar a{
+    text-decoration: none;
+    color: black;
+}
 .btn-Entar:hover{
     transform: scale(1.1);
 }
