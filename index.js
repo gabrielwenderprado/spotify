@@ -35,6 +35,11 @@
 
     VerificaIdade (idade)
 
+
+    var idadeReal = 18;
+    if(idadeReal >= 18 || idadeReal === 18);
+    console.log('igual ou maior que 18');
+
     
     //     //testando conferer senha 
     //     const input1 = document.querySelector("#password")
