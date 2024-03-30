@@ -25,16 +25,27 @@
         <div class="btn-login"> <button><i class="fa-brands fa-apple"></i>continuar com apple</button></div>
         <!-- <div class="btn-login"> <button>continuar com um numero de telefone</button></div><br><br> -->
         <div><h2 class="linha">___________________________________________________</h2></div><br><br>
+        
+        
+    <form name="cadastro" action=""  onsubmit="senhaOK();" method="POST">
+        
+        
+        <div class="emailUsu1" ><h2>digite seu nome completo</h2><br>
+            <input class="emailUsu" type="text" placeholder="nome completo " id="nome"> </div><br>
+
         <div class="emailUsu1" ><h2>digite seu e-mail</h2><br>
         <input class="emailUsu" type="email" placeholder="e-mail " id="login"> </div><br>
+
         <div class="senhaUsu1"><h2> digite uma senha <i class="fa-solid fa-lock"></i></h2><br>
-        <input class="senhaUsu" type="password" placeholder="senha" id="senha" ></div>
+        <input class="senhaUsu" type="password" placeholder="senha" id="senha" name="senha"  required ></div>
         
         <div class="senhaUsu1"><h2>confirme sua senha <i class="fa-solid fa-lock"></i></h2><br>
-            <input class="senhaUsu" type="password" placeholder="senha" id="senha" ></div>
+            <input class="senhaUsu" type="password" placeholder="senha" id="senhaConfirma" name="confirma"  required ></div>
             <div class="btn-Entar">
-                <button  onclick="SalvarInfosLogar()" class="entar-btn">entrar</button>
+                <button id="envia" value="Enviar" onclick="SalvarInfosLogar()" class="entar-btn">entrar</button>
             </div>
+
+    </form>    
 
         <!-- <div class="EsqSenha">
             <a class ="EsqSenha1">esqueceu sua senha ? </a>

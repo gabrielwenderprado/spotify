@@ -104,6 +104,10 @@ body{
     border-radius: 5px;
 }
 
+.conteiner-card-big:has(.card-big:hover) .card-big:not(:hover){
+    opacity: 0.2;
+    scale: 0.98;
+}
 .conteiner-card-esq{
     /* border: 5px solid black; */
     width: 300px;
