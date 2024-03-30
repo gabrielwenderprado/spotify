@@ -20,46 +20,68 @@
         <div class="iniciarSessao">
             <h1>faça seu cadastro</h1>
         </div><br><br><br>
-        <div class="btn-login"> <button ><i class="fa-brands fa-google"></i>  continuar com o google</button></div>
-        <div class="btn-login"> <button><i class="fa-brands fa-square-facebook"></i>continuar com facebook</button></div>
-        <div class="btn-login"> <button><i class="fa-brands fa-apple"></i>continuar com apple</button></div>
-        <!-- <div class="btn-login"> <button>continuar com um numero de telefone</button></div><br><br> -->
-        <div><h2 class="linha">___________________________________________________</h2></div><br><br>
+        <div class="btn-login">
+             <button ><i class="fa-brands fa-google"></i>  continuar com o google</button>
+        </div>
+        <div class="btn-login">
+             <button><i class="fa-brands fa-square-facebook"></i>continuar com facebook</button>
+        </div>
+        <div class="btn-login">
+             <button><i class="fa-brands fa-apple"></i>continuar com apple</button>
+        </div>
+        <div>
+            <h2 class="linha">___________________________________________________</h2>
+        </div><br><br>
         
         
-    <form name="cadastro" action=""  onsubmit="senhaOK();" method="POST">
-        
-        
-        <div class="emailUsu1" ><h2>digite seu nome completo</h2><br>
-            <input class="emailUsu" type="text" placeholder="nome completo " id="nome"> </div><br>
+    
 
-        <div class="emailUsu1" ><h2>digite seu e-mail</h2><br>
-        <input class="emailUsu" type="email" placeholder="e-mail " id="login"> </div><br>
+    <div class="content">  
 
-        <div class="senhaUsu1"><h2> digite uma senha <i class="fa-solid fa-lock"></i></h2><br>
-        <input class="senhaUsu" type="password" placeholder="senha" id="senha" name="senha"  required ></div>
+
+        <form >
         
-        <div class="senhaUsu1"><h2>confirme sua senha <i class="fa-solid fa-lock"></i></h2><br>
-            <input class="senhaUsu" type="password" placeholder="senha" id="senhaConfirma" name="confirma"  required ></div>
-            <div class="btn-Entar">
-                <button id="envia" value="Enviar" onclick="SalvarInfosLogar()" class="entar-btn">entrar</button>
+            <div class="emailUsu1" ><h2>digite seu nome completo</h2><br>
+                <input class="emailUsu required"  type="text" placeholder="nome completo " id="nome" oninput="nameValido()">
+                <span class="span-required"> Nome deve ter pelo menos 3 cracteres</span>
+            </div><br>
+
+            <div class="emailUsu1" >
+                <h2>digite seu e-mail</h2><br>
+            <input class="emailUsu required" type="email" placeholder="e-mail " id="login" oninput="emailValido()"> 
+            <span class="span-required">
+                Este e-mail é inválido. Certifica-te de que tem este formato: exemplo@email.com.
+            </span>
+            </div><br>
+
+            <div class="senhaUsu1">
+                <h2> digite uma senha <i class="fa-solid fa-lock"></i></h2><br>
+            <input class="senhaUsu required" type="password" placeholder="senha" id="senha" name="senha" oninput="passwordValidate()" >
+            <span class="span-required">
+                digite uma senha com no minimo 5 caracetres
+            </span>
+            </div>
+            
+            <div class="senhaUsu1">
+                <h2>confirme sua senha <i class="fa-solid fa-lock"></i></h2><br>
+                <input class="senhaUsu required" type="password" placeholder="senha" id="senhaConfirma" name="confirma" oninput="comparePassword()" >
+                <span class="span-required"> 
+                    senhas devem ser compativeis
+                </span>
             </div>
 
-    </form>    
+            <div class="btn-Entar">
+                <button type="submit" id="envia" value="Enviar" class="entar-btn"> <a href="posEntrar.html">entrar</a> </button>
+            </div>
 
-        <!-- <div class="EsqSenha">
-            <a class ="EsqSenha1">esqueceu sua senha ? </a>
-        </div><br> -->
+        </form> 
+    </div> 
+       
         <div class="linha" ><h2>___________________________________________________</h2></div><br><br>
-        <!-- <div class="Inscrevase">
-            <h2>nao tem uma conta ? <a class="linkInsrevase" href="">Inscrever-se no Spotify</a></h2>
-        </div><br><br> -->
     </div>
     <div class="footer1">
         <h3>Este site é protegido pelo reCAPTCHA e está sujeito à Política de Privacidade e aos Termos de Serviço do Google.</h3>
     </div>
-    <script src="./index.js"></script>
-</body>
-</html>
+    <script src="./cadastro.js"></script>
 </body>
 </html>
