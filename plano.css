@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --bg-color: #993399;
+    --bg-header: #000000;
+    --txt-color: #fff;
+}
+
+* {
+    margin: 0;
+    /* padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; */
+}
+body{
+    background: #000000;
+}
+
+span{
+    margin-left: 15px;
+}
+
+.topoLogin{
+    height: 100%;
+    width: 100%;
+    background: black;
+    border: 5px solid black;
+    display: flex; 
+    margin-bottom: 0px;  
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 600px;
+    height: 100%;
+}
+
+.section-plan {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.title-plan {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.title-plan h2 {
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.title-plan p {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.card-area {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.cards {
+    background-color: var(--txt-color);
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px 8px #ccc;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.card-plan-info {
+    padding: 10px;
+}
+
+.card-plan-info span {
+    background-color: rgb(13 114 234);
+    padding: 5px;
+    color: var(--txt-color);
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.btn-card-plan a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.card-plan-info h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.card-plan-info p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.box-transaparent {
+    padding: 5px;
+    color: var(--txt-color);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.box-transaparent strong {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid rgb(13 114 234);
+    color: rgb(13 114 234);
+    padding: 5px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards ul {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.cards ul li {
+    margin-left: -13px;
+    margin-top: -3px;
+    text-align: initial;
+    font-size: 17px;
+    
+
+}
+
+.cards ul li::before {
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: -8px;
+    background-image: url(../assets/verified.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-card-plan {
+    text-align: center;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.btn-card-plan button {
+    padding: 10px;
+    width: 250px;
+    color: #ccc;
+    background-color: black;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow-y: hidden;
+    text-transform: uppercase;
+}
+
+
+.text-card-plan {
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-card-plan p {
+    margin-bottom: 50px;
+}
